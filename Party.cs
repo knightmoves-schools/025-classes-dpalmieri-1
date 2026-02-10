@@ -15,8 +15,7 @@ public class Party
         Person person1 = new Person("Abdul", "Ahmed");
         Person person2 = new Person("Name", "Last");
         Person person3 = new Person("Ramsey", "Freeman");
-        
-        return Guests;
     }
 }
+
 
