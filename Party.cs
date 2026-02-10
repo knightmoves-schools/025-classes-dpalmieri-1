@@ -12,11 +12,12 @@ public class Party
         }
     }
     public string[] Guests{
-        new Person("Abdul", "Ahmed"),
-        new Person("Name", "Last"),
-        new Person("Ramsey", "Freeman")
+        Person person1 = new Person("Abdul", "Ahmed"),
+        Person person2 = new Person("Name", "Last"),
+        Person person3 = new Person("Ramsey", "Freeman")
     };
 }
+
 
 
 
