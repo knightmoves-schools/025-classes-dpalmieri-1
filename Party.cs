@@ -11,12 +11,13 @@ public class Party
             this.lastName = lastName;
         }
     }
-    public string[] Guests{
+    public Person[] Guests = new Person[]{
         new Person("Abdul", "Ahmed"),
         new Person("Name", "Last"),
         new Person("Ramsey", "Freeman")
-    }
+    };
 }
+
 
 
 
