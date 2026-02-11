@@ -10,14 +10,15 @@ public class Party
             this.firstName = firstName;
             this.lastName = lastName;
         }
+    }
+    public string[] Guests{
         Person person1 = new Person("Abdul", "Ahmed"),
         Person person2 = new Person("Name", "Last"),
         Person person3 = new Person("Ramsey", "Freeman")
-    }
-    public string[] Guests{
-        $"person1", $"person2", $"person3"
+        "person1", "person2", "person3"
     }
 }
+
 
 
 
