@@ -7,7 +7,7 @@ public class Party
         public string FirstName { get; };
         public string LastName { get; };
 
-        public Person(firstName, lastName){
+        public Person(string firstName, string lastName){
             this.firstName = FirstName;
             this.lastName = LastName;
         }
@@ -18,6 +18,7 @@ public class Party
         new Person("Ramsey", "Freeman"),
     }
 }
+
 
 
 
