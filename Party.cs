@@ -16,8 +16,9 @@ public class Party
         new Person("Abdul", "Ahmed"),
         new Person("Name", "Last"),
         new Person("Ramsey", "Freeman"),
-    }
+    };
 }
+
 
 
 
