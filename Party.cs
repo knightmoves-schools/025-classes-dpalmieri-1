@@ -15,9 +15,10 @@ public class Party
     public Person[] Guests { get; } = new Person[]{
         new Person("Abdul", "Ahmed"),
         new Person("Name", "Last"),
-        new Person("Ramsey", "Freeman"),
-    };
+        new Person("Ramsey", "Freeman")
+    }
 }
+
 
 
 
