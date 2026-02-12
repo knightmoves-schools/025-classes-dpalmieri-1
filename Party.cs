@@ -2,10 +2,11 @@
 public class Party
 {
     // Add your code here
-    public class Person{
-        public string firstName;
-        public string lastName;
+    
+    public string firstName;
+    public string lastName;
 
+    public class Person{
         public Person(public string FirstName { get; }, public string LastName { get; }){
             this.FirstName = firstName;
             this.LastName = lastName;
@@ -17,6 +18,7 @@ public class Party
         new Person("Ramsey", "Freeman"),
     }
 }
+
 
 
 
