@@ -6,20 +6,18 @@ public class Party
         public string firstName;
         public string lastName;
 
-        public Person(string firstName, string lastName){
+        public Person(public string firstName { get; }, public string lastName { get; }){
             this.firstName = firstName;
             this.lastName = lastName;
         }
     }
-    public void People{
-        Person person1 = new Person("Abdul", "Ahmed"),
-        Person person2 = new Person("Name", "Last"),
-        Person person3 = new Person("Ramsey", "Freeman")
-        }
-    public string[] Guests{
-        $"{person1}", $"{person2}", $"{person3}
+    public Person[] Guests { get; } = new Person[]{
+        new Person("Abdul", "Ahmed")
+        new Person("Name", "Last")
+        new Person("Ramsey", "Freeman")
     }
 }
+
 
 
 
