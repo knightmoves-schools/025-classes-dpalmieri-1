@@ -8,16 +8,17 @@ public class Party
         public string LastName { get; }
 
         public Person(string firstName, string lastName){
-            this.firstName = FirstName;
-            this.lastName = LastName;
+            this.FirstName = firstName;
+            this.LastName = lastName;
         }
     }
     public Person[] Guests { get; } = new Person[]{
         new Person("Abdul", "Ahmed"),
         new Person("Name", "Last"),
         new Person("Ramsey", "Freeman")
-    }
+    };
 }
+
 
 
 
