@@ -12,12 +12,13 @@ public class Party
             this.LastName = lastName;
         }
     }
-    public Person[] Guests { get; } = new Person[]{
+    public Person[] Guests { get; } = {
         new Person("Abdul", "Ahmed"),
         new Person("Name", "Last"),
         new Person("Ramsey", "Freeman")
     }
 }
+
 
 
 
